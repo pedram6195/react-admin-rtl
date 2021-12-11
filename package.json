@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "4.11.3",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.4",
+    "jss-rtl": "^0.3.0",
+    "prop-types": "^15.7.2",
+    "ra-data-json-server": "^3.18.2",
+    "ra-data-simple-rest": "^3.18.2",
+    "ra-language-farsi": "^2.1.0",
     "react": "^17.0.2",
+    "react-admin": "^3.18.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
+  },
+  "resolutions": {
+    "react-admin/@material-ui/core": "4.11.3"
   },
   "scripts": {
     "start": "react-scripts start",
